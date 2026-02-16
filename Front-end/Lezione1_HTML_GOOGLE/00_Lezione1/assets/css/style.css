@@ -1,0 +1,19 @@
+.primary-container {
+  background-color: royalblue;
+  height: 100px;
+  width: 100px;
+}
+
+.second-container {
+  background-color: rgb(24, 214, 36);
+  height: 100px;
+  width: 100px;
+  margin-top: 20px;
+}
+
+.tertiary-container {
+  background-color: rgb(214, 24, 81);
+  height: 100px;
+  width: 100px;
+  margin-top: 20px;
+}

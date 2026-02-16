@@ -1,0 +1,204 @@
+.heroSection {
+  display: flex;
+  flex-direction: row;
+  margin: 60px;
+  height: auto;
+}
+
+.title {
+  width: 60%;
+  padding-right: 40px;
+}
+
+
+.img {
+  width: 40%;
+  background-color: aqua;
+  border-radius: 50px;
+}
+
+.secondSection {
+  display: flex;
+  margin: 80px 60px;
+}
+
+.secondTitle {
+  width: 60%;
+  padding-right: 40px;
+}
+
+.secondImg {
+  width: 40%;
+}
+
+
+.secondImg div p,
+a {
+  padding: 15px;
+  height: 5vh;
+  background-color: bisque;
+  border-radius: 50px;
+  font-size: 1.2em;
+  margin-bottom: 15px;
+}
+
+.howSection {
+  margin: 80px 60px;
+}
+
+.howCards {
+  display: flex;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.howCard {
+  background-color: #f2f2f2;
+  padding: 25px;
+  border-radius: 40px;
+  width: 25%;
+  text-align: center;
+}
+
+.blogSection {
+  margin: 80px 60px;
+}
+
+.blogCards {
+  display: flex;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.blogCard {
+  background-color: #f2f2f2;
+  padding: 25px;
+  border-radius: 40px;
+  width: 25%;
+}
+
+.reviewSection {
+  margin: 80px 60px;
+}
+
+.reviewCards {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 10px;
+}
+
+.reviewCard {
+  width: 25%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.reviewCard p {
+  font-size: 1em;
+  margin-bottom: 15px;
+}
+
+.reviewCard strong {
+  font-size: 0.9em;
+}
+
+.stars {
+  color: gold;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 1024px) {
+
+  /* HERO */
+  .heroSection {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: auto;
+  }
+
+  .img {
+    display: none;
+  }
+
+  .title {
+    width: 100%;
+  }
+
+  .title h1 {
+    font-size: 3em;
+    margin-left: 0;
+  }
+
+  .title p {
+    margin-left: 0;
+    font-size: 1.2em;
+  }
+
+  /* SECONDA SEZIONE */
+  .secondSection {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .secondTitle,
+  .secondImg {
+    width: 100%;
+    margin: 0;
+  }
+
+  .secondTitle h1,
+  .secondTitle p {
+    margin-left: 0;
+  }
+
+  /* COME FUNZIONA */
+  .howCards {
+    flex-wrap: wrap;
+  }
+
+  .howCard {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+
+  /* BLOG */
+  .blogCards {
+    flex-wrap: wrap;
+  }
+
+  .blogCard {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+
+  /* RECENSIONI */
+  .reviewCard {
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+
+  /* TESTI */
+  h1 {
+    font-size: 2em;
+  }
+
+  /* COME FUNZIONA */
+  .howCard {
+    width: 100%;
+  }
+
+  /* BLOG */
+  .blogCard {
+    width: 100%;
+  }
+
+  /* RECENSIONI */
+  .reviewCard {
+    width: 100%;
+  }
+
+}

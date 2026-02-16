@@ -1,0 +1,11 @@
+.color {
+  width: 240px;
+  height: 240px;
+  background-color: brown;
+}
+
+.color.active {
+  background-color: chartreuse;
+  border-radius: 25%;
+  margin-top: 10px;
+}

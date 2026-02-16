@@ -1,0 +1,118 @@
+.firstDiv {
+  width: 100px;
+  height: 100px;
+  margin: 10px 10px;
+  border-radius: 100%;
+}
+
+.colorBoxOne {
+  background-color: lightskyblue;
+}
+
+.colorBoxSecond {
+  background-color: lightgreen;
+}
+
+.text {
+  text-align: center;
+  padding: 10px;
+}
+
+.white {
+  color: white;
+}
+
+.blue {
+  color: blue;
+}
+
+@media (min-width: 768px) {
+  .colorBoxOne {
+    background-color: red;
+  }
+  .colorBoxSecond {
+    background-color: blueviolet;
+  }
+  .text {
+    color: bisque;
+  }
+}
+
+@media (min-width: 1024px) {
+  .colorBoxOne {
+    background-color: rgb(255, 251, 0);
+  }
+  .colorBoxSecond {
+    background-color: rgb(226, 125, 43);
+  }
+  .text {
+    color: bisque;
+  }
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  display: flex;
+}
+
+.class {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(83, 150, 79);
+}
+
+#idClass {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(150, 79, 150);
+}
+
+#huntr-react-container-2 {
+  display: none !important;
+}
+
+.containerBig {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+  width: 100%;
+}
+
+.firstImgBig {
+  grid-column: 1 / 2;
+  grid-row: 1 / 3;
+  background-color: coral;
+  border-radius: 30px;
+}
+
+.secondImgSmall {
+  grid-column: 2;
+  grid-row: 1;
+  background-color: aqua;
+}
+
+.thirdImgSmall {
+  grid-column: 3;
+  grid-row: 1;
+  background-color: blue;
+}
+
+.fourthImgSmall {
+  grid-column: 2;
+  grid-row: 2;
+  background-color: blueviolet;
+}
+
+.fiveImgSmall {
+  grid-column: 3;
+  grid-row: 2;
+  background-color: burlywood;
+}
+
+.containerBig > div {
+  aspect-ratio: 1 / 1;
+  border-radius: 30px;
+}

@@ -1,0 +1,86 @@
+.heroImg {
+  width: 200px;
+  margin-left: 40px;
+  padding-bottom: 0px;
+}
+.itinerarySection {
+  margin: 0 40px;
+}
+
+.itineraryCard {
+  display: flex;
+  gap: 30px;
+  padding: 25px;
+  border: 1px solid #eee;
+  border-radius: 24px;
+  align-items: stretch;
+}
+
+.imgSection {
+  display: flex;
+  gap: 12px;
+}
+
+.firstImg {
+  width: 160px;
+  height: 220px;
+  background-color: #e5e5e5;
+  border-radius: 16px;
+}
+
+.secondImg {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.secondImg div {
+  width: 80px;
+  height: 104px;
+  background-color: #e5e5e5;
+  border-radius: 16px;
+}
+
+
+.cardSection h2 {
+  margin: 0 0 12px;
+  font-size: 1.6em;
+}
+
+.subtitle {
+  margin: 0;
+  font-size: 1.7em;
+  color: #555;
+}
+
+hr {
+  border-top: 1px solid #eee;
+}
+
+.boxCards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.box {
+  display: flex;
+  gap: 12px;
+}
+
+.boxSection {
+  width: 60px;
+  height: 60px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+}
+
+.infoSection {
+  padding: 14px 22px;
+  background-color: #2f6fed;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 1.2em;
+}

@@ -1,0 +1,35 @@
+
+.bold {
+  font-weight: bold;
+}
+
+.blue {
+  color: blue;
+}
+
+
+/* Tutti i <p> che stanno DENTRO un <div> (a qualsiasi livello) */
+div p {
+  color: green;
+}
+
+
+/* SOLO i <p> FIGLI DIRETTI di un <div> */
+div > p {
+  color: aqua;
+}
+
+/* Il <p> SUBITO DOPO un <div> */
+div + p {
+  color: yellow;
+}
+
+/*
+Se c’è qualsiasi elemento in mezzo → NON funziona
+*/
+
+
+/* Tutti i <p> che vengono DOPO un <h2> (stesso livello) */
+h2 ~ p {
+  color: brown;
+}
