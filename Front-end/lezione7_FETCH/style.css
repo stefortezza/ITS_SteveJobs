@@ -1,0 +1,83 @@
+/* Reset base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Main container */
+main {
+  background: #ffffff;
+  width: 90%;
+  max-width: 800px;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+/* Titolo */
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+  font-size: 28px;
+}
+
+/* Container utenti */
+#users {
+  display: grid;
+  gap: 20px;
+}
+
+/* Card utente */
+#users div {
+  background: #f4f6fb;
+  padding: 20px;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  border-left: 5px solid #667eea;
+}
+
+/* Hover effect */
+#users div:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Nome utente */
+#users h2 {
+  margin-bottom: 8px;
+  color: #333;
+  font-size: 20px;
+}
+
+/* Email */
+#users p {
+  color: #666;
+  font-size: 14px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  main {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  #users div {
+    padding: 15px;
+  }
+}
