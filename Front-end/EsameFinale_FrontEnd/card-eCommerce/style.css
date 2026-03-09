@@ -1,0 +1,100 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.productCard {
+  margin-top: 100px;
+  width: 260px;
+  background-color: #2e4a6b;
+  border-radius: 12px;
+}
+
+.productImage {
+  position: relative;
+  height: 350px;
+  background-color: #2e4a6b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.bgImg {
+  width: 90%;
+  height: 90%;
+  background-color:aqua;
+}
+.icons {
+  position: absolute;
+  top: 20px;
+  right: 17px;
+  background-color: #fff;
+  border: none;
+  border-radius: 6px;
+  width: 35px;
+  height: 35px;
+}
+
+.badges {
+  position: absolute;
+  margin-top: 280px;
+  left: 17px;
+  display: flex;
+  gap: 6px;
+}
+
+.badge {
+  padding: 3px 6px;
+  font-size: 11px;
+  font-weight: bold;
+  border-radius: 4px;
+  color: #fff;
+}
+
+.badge.code {
+  background-color: #ffffff;
+  color: black;
+}
+
+.badge.promo {
+  background-color: #e03030;
+}
+
+.productInfo {
+  background-color: #2e4a6b;
+  color: #fff;
+  padding: 0px 14px;
+  padding-bottom: 10px;
+}
+
+.brand {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.name {
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.priceMedian {
+  font-size: 12px;
+}
+
+.old-price {
+  text-decoration: line-through;
+  margin-left: 4px;
+}
+
+.discount {
+  margin-left: 4px;
+}
