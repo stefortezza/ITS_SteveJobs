@@ -48,19 +48,19 @@ footer p {
   width: 30px;
 }
 
-.nav-links {
+.menuLinks {
   display: flex;
   gap: 30px;
 }
 
-.nav-links a {
+.menuLinks a {
   color: white;
   text-decoration: none;
   font-size: 15px;
   font-weight: 400;
 }
 
-.nav-links a:hover {
+.menuLinks a:hover {
   color: #f3d6e0;
 }
 
@@ -83,14 +83,14 @@ footer p {
   width: 260px;
 }
 
-.menu-toggle {
+.menuToggle {
   display: none;
   flex-direction: column;
   gap: 5px;
   cursor: pointer;
 }
 
-.menu-toggle span {
+.menuToggle span {
   width: 25px;
   height: 3px;
   background: white;
@@ -133,7 +133,7 @@ footer p {
   border-radius: 3px;
 }
 
-.team-grid {
+.teamGrid {
   margin-top: 50px;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -178,17 +178,17 @@ footer p {
 }
 
 @media (max-width: 1200px) {
-  .team-grid {
+  .teamGrid {
     grid-template-columns: repeat(5, 1fr);
   }
 }
 
 @media (max-width: 992px) {
-  .menu-toggle {
+  .menuToggle {
     display: flex;
   }
 
-  .nav-links {
+  .menuLinks {
     display: none;
     position: absolute;
     top: 60px;
@@ -201,29 +201,29 @@ footer p {
     gap: 20px;
   }
 
-  .nav-links.active {
+  .menuLinks.active {
     display: flex;
   }
 
-  .team-grid {
+  .teamGrid {
     grid-template-columns: repeat(4, 1fr);
   }
 }
 
 @media (max-width: 768px) {
-  .team-grid {
+  .teamGrid {
     grid-template-columns: repeat(3, 1fr);
   }
 }
 
 @media (max-width: 576px) {
-  .team-grid {
+  .teamGrid {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (max-width: 468px) {
-  .team-grid {
+  .teamGrid {
     grid-template-columns: 1fr;
   }
 }
