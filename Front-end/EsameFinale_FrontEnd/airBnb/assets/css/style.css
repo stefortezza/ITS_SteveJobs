@@ -1,0 +1,118 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+
+/* NAVBAR */
+
+.navbar{
+position:fixed;
+top:0;
+width:100%;
+background:white;
+
+display:flex;
+justify-content:space-between;
+align-items:center;
+
+padding:25px 40px;
+
+box-shadow:0 2px 6px rgba(0,0,0,0.1);
+z-index:1000;
+}
+
+.navbar .logo{
+font-size:22px;
+font-weight:bold;
+color:#ff385c;
+}
+
+.navbar nav a{
+margin-left:20px;
+text-decoration:none;
+color:#333;
+font-weight:500;
+}
+
+
+/* MAIN */
+
+main{
+padding-top:100px;
+}
+
+
+/* HERO */
+
+.hero{
+text-align:center;
+padding:60px 20px;
+background:#f5f5f5;
+}
+
+.hero h1{
+font-size:34px;
+margin-bottom:10px;
+}
+
+.hero p{
+font-size:18px;
+color:#555;
+}
+
+
+/* CONTENITORE CENTRALE */
+
+.sectionAll{
+max-width:1200px;
+margin:0 auto;
+}
+
+
+/* RIGHE SCORREVOLI */
+
+.image-row{
+
+display:flex;
+gap:16px;
+
+overflow-x:auto;
+overflow-y:hidden;
+
+padding:30px 0;
+
+scrollbar-width:none;
+-ms-overflow-style:none;
+}
+
+.image-row::-webkit-scrollbar{
+display:none;
+}
+
+
+/* CARD */
+
+.image-item{
+
+flex: 0 0 calc((100% - 80px) / 6);
+height:160px;
+
+border-radius:14px;
+
+background-color:cadetblue;
+
+}
+
+
+/* TABLET */
+
+@media (min-width:764px){
+
+.image-item{
+flex: 0 0 calc((100% - 180px) / 8);
+}
+
+}
