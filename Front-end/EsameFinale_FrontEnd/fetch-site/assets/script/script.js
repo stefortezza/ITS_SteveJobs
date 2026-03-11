@@ -24,3 +24,10 @@ button.addEventListener("click", () => {
     card.style.backgroundColor = "#e609ea";
   });
 });
+
+function changeColor() {
+  const cards = document.querySelectorAll(".user-card");
+  cards.forEach((card) => {
+    card.style.backgroundColor = "#09ea90";
+  });
+}
